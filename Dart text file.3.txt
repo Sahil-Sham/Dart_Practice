@@ -1,0 +1,71 @@
+18-12-2023(monday)
+SAYLANI-FLUTTER (DART)
+Topic(Operators,logical operators):
+
+3.Class#3___________________________________________
+
+
+  
+ void main(){
+bool abc=18>=3;
+print(abc);
+}
+____________________________________________________________
+void main(){
+ bool isemailvalid=true;
+  bool ispasswordvalid=false;
+  bool login=isemailvalid&&ispasswordvalid;
+  print (login);
+}
+_____________________________________________________________
+  
+
+//AND -truefale-> false
+//AND -truetrue-> true
+//AND -false false->  false
+
+//OR -truefale-? true
+//OR -truetrue-> true
+//OR -false false->  false
+
+_____________________________________________________________
+void main() {
+  
+  var num1=1;
+  var num2=2;
+  var num3=3;
+  var result1 =num1>num3;
+  var result2 =num2<=num2;
+  var result3 =result1||!result2;
+  var result4 =!(result3&&!result2);
+  var result =!result4||result4;
+  print (!result);
+}
+
+_____________________________________________________________
+
+var num1=1;
+  var num2=2;
+  var num3=3;
+  var result1 =num1>num3;//false
+  var result2 =num2<=num2;//true
+  var result3 =result1||!result2;//false
+  var result4 =!(result3&&!result2);//true
+  var result =!result4||result4;//true
+  print (!result);//false
+}
+___________________________________________________________
+
+
+void main() {
+ int marks=51;
+  if(marks>=50){
+    print("studet ko pass krdo");
+    
+  }else{
+    print("student ko fail krdo");
+    
+  }
+  
+}
+

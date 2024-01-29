@@ -1,0 +1,40 @@
+20-12-23(wednesday)
+SAYLANI FLUTTER (DART)
+Class.4___________________________________________________
+
+void main() {
+ int marks=61;
+  if(marks>=50){
+    
+   print("pass");
+    
+  } else{
+    print("fail");
+  }
+  print("abc");
+  
+}
+
+void main(){
+  String username="sahil";
+  String password="12345";
+  
+  if(username=="sahil"&&password=="123456"){
+    print("let user in");
+  }else{
+    print("wrong password");
+  }
+}
+
+
+void main(){
+  String username="sahil";
+  String password="12345";
+  
+  if(username=="sahil"&&password=="123456"){
+//     true          &&    false
+    print("let user in");
+  }else{
+    print("wrong password");
+  }
+}
